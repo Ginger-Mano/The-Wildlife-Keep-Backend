@@ -453,32 +453,8 @@ animal = [
       avatar: "blue"
     }
 ]
-    # {
-    #   "username": "LoverOfAnimals12",
-    #   "password": "red",
-    #   "name": "Christian",
-    #   "age": "55",
-    #   "location": "Miami",
-    #   "avatar": "blue"
-    # },
-    # {
-    #   "username": "Skyrim",
-    #   "password": "red",
-    #   "name": "Jacob",
-    #   "age": "31",
-    #   "location": "Boston",
-    #   "avatar": "blue" 
-    # }
-#   ]
-# #   watchlist = [
-# #       {
-# #           "name": "watchlist"
-# #       },
-# #       {
-# #           "name": "mylist"
-# #       }
-# #   ]
-# byebug
+  
+
 animal.each do |animalhash| 
     # byebug
     EndangeredAnimal.create(
@@ -493,16 +469,6 @@ animal.each do |animalhash|
     )
     end
 
-#    user.each do |userhash|
-#      User.create({
-#          username: userhash["username"],
-#          password: userhash["password"],
-#          name: userhash["name"],
-#          age: userhash["age"],
-#          location: userhash["location"],
-#          avatar: userhash["avatar"]
-#    })
-#    end
 User.create(
     {
     username: "Animal Protectah",
@@ -522,10 +488,3 @@ User.create(
 
        )
 
-#    WatchList.create(
-#        {
-#        name: "watchlist",
-#        user_id: User.all.third.id,
-#        endangered_animal_id: EndangeredAnimal.all.sample.id
-#        }
-#        )
