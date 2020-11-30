@@ -23,6 +23,7 @@ class UsersController < ApplicationController
 
     def login
         @user = User.find_by(username: params[:username]) #put byebug when login
+        # byebug 
         if @user && @user.authenticate(params[:password]) 
             token_tag = encode_token({user_id: @user.id})
             render json: {user: UserSerializer.new(@user), token: token_tag}
@@ -57,6 +58,6 @@ class UsersController < ApplicationController
     private
 
     def user_params
-        params.permit(:username, :password, :name, :age, :avatar, :location)
+        params.require(:user).permit(:username, :password, :name, :age, :avatar, :location)
     end
 end
