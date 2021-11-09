@@ -1,21 +1,31 @@
-Welcome to the Backend of The Wildlife Keep! This portion of the application has the following features:
 
-- PostgreSQL database: an open source relational database to access and store data including JSON and manage attributes
-- JWT Authentication: a token for security that creates a digital signature so users can prove their identity through a password
-- Custom Routes: routes uniquely created for users to access certain pages upon authentication
-- Gemfile additions: Gems bycrypt and jwt installed
+# Welcome to the Backend of The Wildlife Keep! 
 
+## Description
+
+The Wildlife Keep is an app made for wildlife enthusiasts to learn about endangered animals that they can add to a personalized watchlist. The Front-end portion is built with React.js, HTML, CSS, and Semantic UI. The server side is built with Ruby on Rails and PostgreSQL. A key feature of the server is JWT Auth integrated with the app. I decided to incorporate this feature so the user would have more security and autonomy having their own profile with a password when they visit.
+
+
+## Features
+This portion of the application has the following features:
+
+✔️ PostgreSQL database: an open source relational database to access and store data including JSON and manage attributes
+
+✔️ JWT Authentication: a token for security that creates a digital signature so users can prove their identity through a password
+
+✔️ Custom Routes: routes uniquely created for users to access certain pages upon authentication
+
+✔️ Gemfile additions: Gems bycrypt and jwt installed
+<br>
 
 ## JWT in Users Controller
 <div align="center">
-<img width="666" alt="jwt users cont" src="https://user-images.githubusercontent.com/61391413/140846848-319bd143-1084-4b94-8926-972b8017f796.png"> </div>
+<img width="666" alt="jwt users cont" src="https://user-images.githubusercontent.com/61391413/140846848-319bd143-1084-4b94-8926-972b8017f796.png"> </div><br>
 
-<br>
 ## PostgreSQL schema
 <div align="center">
-<img width="1374" alt="postgres schema" src="https://user-images.githubusercontent.com/61391413/140847011-98bf8637-f023-41ff-b33b-d2a0ed050a68.png"></div>
+<img width="1374" alt="postgres schema" src="https://user-images.githubusercontent.com/61391413/140847011-98bf8637-f023-41ff-b33b-d2a0ed050a68.png"></div><br>
 
-<br>
 ## Viewing API
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/61391413/140847439-9ed38b2f-1a79-4dab-89d6-5df388699017.gif)
